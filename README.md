@@ -14,8 +14,17 @@ API-сервис "Тайный Санта" реализован с помощь�
 
 ## Запуск
 
+### docker-compose
+
 ```shell
 docker-compose up
+```
+
+### docker
+
+```shell
+docker build . -t yaprofi2023
+docker run -p8080:8080 -t yaprofi2023
 ```
 
 ## Документация

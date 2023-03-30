@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 class ParticipantBase(BaseModel):
     name: str
-    wish: str
+    wish: Optional[str]
 
 
 class ParticipantShort(ParticipantBase):
